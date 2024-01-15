@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css trannsition</title>
+	<style type="text/css">
+		button{
+			border: none;
+			width: 150px;
+			font-size: 26px;
+			padding: 20px;
+            /*transition-property: background color;
+            transition-duration: 3s;
+            transition-delay: 2s;*/
+            transition: background 3s ease 1s,color 2s ease 2s,border-radius 3s ease 3s;
+           
+		}
+		button:hover{
+			background: blue;
+			color: white;
+			border-radius: 50%;	
+		}
+	</style>
+</head>
+<body>
+   <button>Subscribe</button>
+</body>
+</html>
